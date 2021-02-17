@@ -1,3 +1,3 @@
 # simple-portfolio
 My portfolio website
-https://chakesezechi.netlify.app
+<a href="https://chakesezechi.netlify.app" target="_blank"></a>
