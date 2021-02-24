@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+  setTimeout(function () {
+    $('.loader-bg').fadeToggle();
+
+  }, 5000);
+
   $('.menu-toggler').on('click', function() {
     $(this).toggleClass('open');
     $('.top-nav').toggleClass('open');
@@ -19,7 +25,8 @@ $(document).ready(function() {
     $('html, body').animate({
       scrollTop: 0
     }, 2000);
-  });
+  
+  }); 
 
   A0S.init({
     easing: 'ease',
