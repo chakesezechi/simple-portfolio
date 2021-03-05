@@ -28,12 +28,6 @@ $(document).ready(function() {
   
   }); 
 
-  A0S.init({
-    easing: 'ease',
-    duration: 1800,
-    once: true
-  });
-
 });
 
 
