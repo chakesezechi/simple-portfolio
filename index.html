@@ -73,7 +73,7 @@
           <h6>Myself</h6>
         </div>
         <p>
-          A front-end developer and a design enthusiast that loves creating user-friendly responsive web pages and also enjoys learning about new technologies.
+          A front-end developer with an eye for design that loves creating user-friendly responsive web pages and also enjoys learning about new technologies. 
         </p>
         
       </div>
@@ -212,7 +212,7 @@
     </div>
 
     <div class="social-media">
-      <ul class="nav-list">
+      <ul class="nav-list" data-aos="fade-right" data-aos-delay="300">
         <li>
           <a href="https://github.com/chakesezechi" target="_blank" class="icon-link">
             <i class="fab fa-github"></i>
@@ -263,7 +263,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      easing: 'ease',
+      duration: 1800,
+      once: true
+    });
   </script>
   <script src="js/main.js"></script>
 </body>
